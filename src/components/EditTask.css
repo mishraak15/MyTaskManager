@@ -1,0 +1,38 @@
+.EditTask form {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 4px;
+  min-width: 40%;
+  max-width: fit-content;
+  margin: 1em auto;
+  padding: 10px;
+  padding-top: 2em;
+  box-shadow: 1px 1px 8px rgb(179, 179, 179);
+  position: relative;
+}
+
+.EditTask h2 {
+  text-align: center;
+  margin: 8px 0;
+}
+
+.EditTask-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media screen and (min-width:320px) and (max-width: 450px) {
+  .EditTask form,.AddTask form{
+    margin: auto 10px;
+    font-size: 15px;
+  }
+
+  .EditTask h2,.AddTask h2{
+       margin: 12px 0;
+  }
+}
