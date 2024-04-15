@@ -1,5 +1,6 @@
 # MyTaskManager
-
+## Hosted Link: 
+https://akashmishra-taskmanager.netlify.app/
 ## Screenshots of the Project
 ![Screenshot (31)](https://github.com/mishraak15/MyTaskManager/assets/133697079/e37594d4-09b7-4aee-9783-232610c9b1d5) 
 
